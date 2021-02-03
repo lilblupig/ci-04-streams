@@ -1,45 +1,128 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome lilblupig,
+# Streams Website
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[View the live project here](https://lilblupig.github.io/streams/)
 
-## Gitpod Reminders
+This is the orientation exercise for Git, GitHub and GitPod as provided by Code Institute.  It is designed to allow very new coders to work with GitPod, GitHub and Git for the first time.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![responsive design mockup](README-images/responsive-demo.png)
+<br>
+<br>
 
-`python3 -m http.server`
+---
+## User Experience
+---
+### User Stories
 
-A blue button should appear to click: *Make Public*,
+1. **First time user**
 
-Another blue button should appear to click: *Open Browser*.
+   May be a visitor who knows the budding coder, a tutor, or a potential employer.
+     * A person known to the coder will likely want to look at the work of their friend or relative.  They will likely click through each page quickly before leaving.
+     * A tutor will likely be looking more at the design and production of the page, and may test the page on various mock viewports as well as ensuring no broken links etc.
+     * A potential employer will likely examine this page briefly before moving onto more recent projects.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+2. **Returning user**
 
-A blue button should appear to click: *Make Public*,
+   Regardless of user type, will likely be returning to look for any changes since last visit, or to see if errors or odd pieces of code/design are present at this early stage.
 
-Another blue button should appear to click: *Open Browser*.
+3. **Frequent user**
+   It is unlikely that there will be any frequent users of this site due to the very basic purpose for its existence.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Design
 
-## Updates Since The Instructional Video
+   * The page follows a basic contrast design of white and dark grey.  
+   * These colours invert when highlighted by the user to provide feedback in relation to active components.
+   * A basic attempt at regulating and centering the images in a grid has been made, however this does not react well to responsive design.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Wireframes
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+   * We have not yet learned about wireframes, so there are none.
+<br>
+<br>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+---
+## Features
+---
+* Clickable links which feed through to other pages.
+* Provides user feedback for active components.
+* Images not squished.
+<br>
+<br>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+---
+## Technologies Used
+---
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Languages Used
+1. [HTML5](https://en.wikipedia.org/wiki/HTML)
+2. [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Frameworks, Libraries and Programs Used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* [Git](https://en.wikipedia.org/wiki/Git)
+* [GitPod](https://www.gitpod.io/)
+* [GitHub](https://github.com/)
+* [Code Institute Full Stack Dev Course](https://codeinstitute.net/full-stack-software-development-diploma-uk/)
+* [adam-p, Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Code Institute Sample README](https://github.com/Code-Institute-Solutions/SampleREADME)
+* [Justin Avery, Am I Responsive](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+<br>
+<br>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+---
+## Testing
+---
+No testing undertaken at this time.
+<br>
+<br>
 
---------
+---
+## Bugs
+---
+_Insert many cry laughing emoji here!!!_  
+Probably many bugs I don't even know are a thing yet.  
+Mostly though:
+* Page unresponsive to any kind of resized viewport
+* Centering horrid, and image constriction very basic, distorts page on resized
+* No footer
+* Images improperly linked as just for learning purposes
+<br>
+<br>
 
-Happy coding!
+---
+## Deployment
+---
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+5. Under "Source", click the dropdown called "None" and select "Master Branch".
+6. The page will automatically refresh.
+7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+<br>
+<br>
+
+---
+## Content
+---
+All content was originally designed by Code Institute, and has been summarily destroyed by the new coder.
+<br>
+<br>
+
+---
+## Media
+---
+All media belong to their respective trademark holders.
+<br>
+<br>
+
+---
+## Acknowledgments
+---
+Code Institute, for even considering taking on idiots like me to do this.
+
+_No idea where this goes, or where I'm supposed to keep my images for this, but imma just leave it here and hope for the best..._
